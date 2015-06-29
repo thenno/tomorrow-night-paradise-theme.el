@@ -19,7 +19,7 @@
 (deftheme tomorrow-night-paradise
   "A Pastel Coloured Theme")
 
-(let ((background "#000000")
+(let ((black "#000000")
       (selection "#3a3a3a")
       (white "#dadada")
       (comment "#585858")
@@ -37,7 +37,7 @@
    'tomorrow-night-paradise
 
    ;; Basics
-   `(default ((t (:background ,background :foreground ,white))))
+   `(default ((t (:background ,black :foreground ,white))))
    `(region ((t (:background ,selection))))
    `(fringe ((t (:background ,gray-2))))
    `(minibuffer-prompt ((t (:foreground ,blue))))
@@ -61,10 +61,10 @@
    ;; UI related
    `(mode-line ((t (:background ,selection :foreground ,white))))
    `(mode-line-inactive ((t (:background ,gray-3))))
-   `(vertical-border ((t (:background ,background :foreground ,selection))))
+   `(vertical-border ((t (:background ,black :foreground ,selection))))
 
    ;; Linum
-   `(linum ((t (:background ,background :foreground ,gray))))
+   `(linum ((t (:background ,black :foreground ,gray))))
 
    ;; show-paren-mode
    `(show-paren-match ((t (:background ,purple :foreground ,gray-2))))
@@ -99,7 +99,7 @@
    `(highlight-indentation-current-column-face ((t (:background ,gray-3))))
 
    ;; ECB
-   `(ecb-default-highlight-face ((t (:background ,background :foreground ,red-2))))
+   `(ecb-default-highlight-face ((t (:background ,black :foreground ,red-2))))
 
    ;; org-mode
    `(org-date ((t (:foreground ,purple))))
@@ -118,10 +118,10 @@
 
    `(ansi-color-names-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
-     [,background ,red ,green ,yellow ,blue ,purple ,blue ,white])
+     [,black ,red ,green ,yellow ,blue ,purple ,blue ,white])
    `(ansi-term-color-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
-     [unspecified ,background ,red ,green ,yellow ,blue ,purple ,blue ,white])))
+     [unspecified ,black ,red ,green ,yellow ,blue ,purple ,blue ,white])))
 
 (provide-theme 'tomorrow-night-paradise)
 
