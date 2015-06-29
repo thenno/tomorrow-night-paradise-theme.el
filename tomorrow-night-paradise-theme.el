@@ -4,7 +4,7 @@
 ;;
 ;;; Tomorrow Night Paradise Theme
 ;;
-;; My customized version of Chris Kempson's Tomorrow Night Bright theme:
+;; My customized version of Jim Myhrberg's Tomorrow Night Bright theme (customized version of Chris Kempson's theme):
 ;; https://github.com/ChrisKempson/Tomorrow-Theme
 ;;
 ;; Particularly colors have been adjusted to look right in a xterm-256color
@@ -12,7 +12,7 @@
 ;; and face definitions have been added for various packages I use on a daily
 ;; basis.
 ;;
-;; --Jim Myhrberg (@jimeh)
+;; --Max Zuev (@thenno)
 
 ;;; Code:
 
