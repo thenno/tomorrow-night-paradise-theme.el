@@ -21,7 +21,7 @@
 
 (let ((background "#000000")
       (selection "#3a3a3a")
-      (foreground "#dadada")
+      (white "#dadada")
       (comment "#585858")
       (cursor "#949494")
       (gray "#303030") (gray-2 "#1c1c1c") (gray-3 "#121212")
@@ -38,7 +38,7 @@
    'tomorrow-night-paradise
 
    ;; Basics
-   `(default ((t (:background ,background :foreground ,foreground))))
+   `(default ((t (:background ,background :foreground ,white))))
    `(region ((t (:background ,selection))))
    `(fringe ((t (:background ,gray-2))))
    `(minibuffer-prompt ((t (:foreground ,blue))))
@@ -47,20 +47,20 @@
    ;; Font-lock stuff
    `(font-lock-builtin-face ((t (:foreground ,purple))))
    `(font-lock-comment-face ((t (:foreground ,comment))))
-   `(font-lock-constant-face ((t (:foreground ,foreground))))
+   `(font-lock-constant-face ((t (:foreground ,white))))
    `(font-lock-doc-face ((t (:foreground ,comment))))
    `(font-lock-doc-string-face ((t (:foreground ,comment))))
-   `(font-lock-function-name-face ((t (:foreground ,foreground))))
+   `(font-lock-function-name-face ((t (:foreground ,white))))
    `(font-lock-keyword-face ((t (:foreground ,purple))))
    `(font-lock-negation-char-face ((t (:foreground ,aqua))))
    `(font-lock-preprocessor-face ((t (:foreground ,red))))
    `(font-lock-string-face ((t (:foreground ,green))))
-   `(font-lock-type-face ((t (:foreground ,foreground))))
-   `(font-lock-variable-name-face ((t (:foreground ,foreground))))
+   `(font-lock-type-face ((t (:foreground ,white))))
+   `(font-lock-variable-name-face ((t (:foreground ,white))))
    `(font-lock-warning-face ((t (:foreground ,red))))
 
    ;; UI related
-   `(mode-line ((t (:background ,selection :foreground ,foreground))))
+   `(mode-line ((t (:background ,selection :foreground ,white))))
    `(mode-line-inactive ((t (:background ,gray-3))))
    `(vertical-border ((t (:background ,background :foreground ,selection))))
 
@@ -119,10 +119,10 @@
 
    `(ansi-color-names-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
-     [,background ,red ,green ,yellow ,blue ,purple ,blue ,foreground])
+     [,background ,red ,green ,yellow ,blue ,purple ,blue ,white])
    `(ansi-term-color-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
-     [unspecified ,background ,red ,green ,yellow ,blue ,purple ,blue ,foreground])))
+     [unspecified ,background ,red ,green ,yellow ,blue ,purple ,blue ,white])))
 
 (provide-theme 'tomorrow-night-paradise)
 
