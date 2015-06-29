@@ -45,18 +45,18 @@
    `(hl-line ((t (:background ,gray-3))))
 
    ;; Font-lock stuff
-   `(font-lock-builtin-face ((t (:foreground ,blue))))
+   `(font-lock-builtin-face ((t (:foreground ,purple))))
    `(font-lock-comment-face ((t (:foreground ,comment))))
-   `(font-lock-constant-face ((t (:foreground ,green))))
+   `(font-lock-constant-face ((t (:foreground ,foreground))))
    `(font-lock-doc-face ((t (:foreground ,comment))))
    `(font-lock-doc-string-face ((t (:foreground ,comment))))
-   `(font-lock-function-name-face ((t (:foreground ,blue))))
+   `(font-lock-function-name-face ((t (:foreground ,foreground))))
    `(font-lock-keyword-face ((t (:foreground ,purple))))
    `(font-lock-negation-char-face ((t (:foreground ,aqua))))
    `(font-lock-preprocessor-face ((t (:foreground ,red))))
    `(font-lock-string-face ((t (:foreground ,green))))
-   `(font-lock-type-face ((t (:foreground ,yellow))))
-   `(font-lock-variable-name-face ((t (:foreground ,aqua))))
+   `(font-lock-type-face ((t (:foreground ,foreground))))
+   `(font-lock-variable-name-face ((t (:foreground ,foreground))))
    `(font-lock-warning-face ((t (:foreground ,red))))
 
    ;; UI related
