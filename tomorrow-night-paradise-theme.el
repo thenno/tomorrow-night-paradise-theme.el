@@ -30,7 +30,6 @@
       (yellow "#e7c547") (yellow-2 "#cdcd00")
       (orange "#e78700")
       (green "#afd75f")
-      (aqua "#00cdcd")
       (blue "#5f87d7")
       (purple "#af87d7"))
 
@@ -52,7 +51,7 @@
    `(font-lock-doc-string-face ((t (:foreground ,comment))))
    `(font-lock-function-name-face ((t (:foreground ,white))))
    `(font-lock-keyword-face ((t (:foreground ,purple))))
-   `(font-lock-negation-char-face ((t (:foreground ,aqua))))
+   `(font-lock-negation-char-face ((t (:foreground ,white))))
    `(font-lock-preprocessor-face ((t (:foreground ,red))))
    `(font-lock-string-face ((t (:foreground ,green))))
    `(font-lock-type-face ((t (:foreground ,white))))
