@@ -82,7 +82,7 @@
    `(whitespace-newline ((t (:foreground ,gray-2))))
    `(whitespace-space ((t (:foreground ,gray-2))))
    `(whitespace-space-after-tab ((t (:foreground ,gray-2))))
-   `(whitespace-tab ((t (:foreground ,gray-2))))
+   `(whitespace-tab ((t (:background ,black :foreground ,gray))))
    `(whitespace-trailing ((t (:background ,red-3 :foreground ,yellow))))
 
    ;; flyspell-mode
